@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int number1, number2, number3;
-    cout << "Podaj trzy liczby całkowite: ";
+    cout << "Podaj trzy liczby calkowite: ";
     cin >> liczba1 >> liczba2 >> liczba3;
     
     int max = number1;
@@ -15,6 +15,6 @@ int main()
     if (number3 > max)
         max = number3;
         
-        cout << "Największa liczba to: " << max << endl;
+        cout << "Najwieksza liczba to: " << max << endl;
     return 0;
 }
